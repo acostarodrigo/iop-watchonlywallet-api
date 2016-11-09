@@ -1,0 +1,17 @@
+fermatOrg/wallet/event/EventNotificationManager$EventNotificationAgent.class
+fermatOrg/wallet/WatchOnlyWallet.class
+fermatOrg/network/IoPBlockchain.class
+fermatOrg/network/IoPBlockchain$1.class
+fermatOrg/exceptions/IoWalletException.class
+fermatOrg/wallet/event/IncomingTransactionListener.class
+fermatOrg/wallet/event/IncomingTransactionEvent.class
+fermatOrg/network/IoPBlockchain$IncomingEvent.class
+fermatOrg/wallet/WatchOnlyWallet$1.class
+fermatOrg/wallet/AddressesFileReader.class
+fermatOrg/wallet/IoPWallet.class
+fermatOrg/exceptions/IoPBlockchainException.class
+fermatOrg/exceptions/AddressFormatException.class
+fermatOrg/wallet/event/EventNotificationManager.class
+fermatOrg/wallet/event/IncomingTransactionEvent$Status.class
+fermatOrg/network/Blockchain.class
+fermatOrg/network/NetworkType.class

@@ -1,0 +1,12 @@
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/wallet/IoPWallet.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/exceptions/IoPBlockchainException.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/network/NetworkType.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/network/Blockchain.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/wallet/event/IncomingTransactionListener.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/wallet/event/IncomingTransactionEvent.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/wallet/AddressesFileReader.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/network/IoPBlockchain.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/exceptions/IoWalletException.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/wallet/WatchOnlyWallet.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/exceptions/AddressFormatException.java
+/home/rodrigo/IoP/sourceCode/IoPWatchOnlyWallet/src/main/java/fermatOrg/wallet/event/EventNotificationManager.java
