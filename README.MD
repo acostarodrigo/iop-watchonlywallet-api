@@ -50,6 +50,52 @@ When we found a transaction that sends IoP coins to any of the imported addresse
 
 For additional functionality, read the internal **API Java docs.**
 
+## Example
+
+```
+private WatchOnlyWallet wallet;
+private  final File walletFile;
+
+// create wallet.
+walletFile = new File("walletTest");
+wallet = new WatchOnlyWallet(walletFile, NetworkType.PRODUCTION);
+
+// import valid addresses
+wallet.importAddress("pRo2xwwWF2mKC78kwUCZiYaLeVUn4yCpbo");
+wallet.importAddress("p6YdVrQFGfp8AuhpnaqgAVHibNVd3LxbTU"); 
+
+// private listener class
+private class Listener implements IncomingTransactionListener{
+        @Override
+        public void incomingEvent(IncomingTransactionEvent incomingTransactionEvent) {
+        //do something with the transaction
+        }
+    }
+
+// create and add the listener    
+Listener listener = new Listener();
+wallet.addIncomingTransactionListener(listener);
+
+// connect the wallet and sync with the blockchain
+this.wallet.connect();
+
+```
+
+##Build
+To compilethe project with Maven and generate the JAR file execute:
+
+```
+$ mvn package
+```
+
+All test will be executed. The tests include creating a wallet that import some real addresses and trigger events, so if you want to avoid them, you can also execute:
+
+```
+$ mvn -Dmaven.test.skip=true -Djacoco.skip=true package	
+```
+
+The JAR package with all dependencies is located at **IoPWatchOnlyWallet/target** directory.
+
 ## Author
 
 * **Rodrigo Acosta**  - [acostarodrigo](https://github.com/acostarodrigo)
